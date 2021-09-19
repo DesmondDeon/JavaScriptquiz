@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Javascript Quiz</title>
+    
+    <!-- Import Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Link Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome CDN -->
+    
+</head>
+<body>
+    <!-- Add a Reponsive NavBar w/ Timer 
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" id="howhigh" href="#">View High Scores</a>
+        </div>
+        <p class="time" id="timer">Timer:<span id="counter">0</span></p>
+    </nav> -->
+
+    <!-- Quiz Page Header -->
+    <nav class="navbar navbar-light bg-dark" class="">
+        <header class="container" class="quiz_box">
+            <a class="navbar-brand" id="howhigh" href="#">View High Scores</a>
+            <div class="timer-text" id="timer">Timer:</div>
+            <div class="timer_sec">75</div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>Which of the following is not a JavaScript Data Types</span>
+            </div> <!--End of Questions One Text-->
+            <div class="option_list">
+                <div class="option">
+                    <span>Boolean</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>CDN</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>CSS</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+        </section>
+    </nav>
+
+    <!-- Quiz Container Footer-->
+    <footer>
+        <div class="total_que">
+            <span><p>2</p><p>of</p><p>5</p></span>
+        </div>
+        <button type="button" class="next_btn">Next Que</button>
+    </footer>
+
+    <!-- Quiz Container -->
+    <div id="quiz_menu" class="quizcontainer">
+        <h1 class="quiz_header">Coding Quiz Challenge</h1>
+    <p id="main">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answer will penalize your score time by ten seconds!</p>
+    <div>
+        
+        <div class="btn"><button type="button" class="btn btn-light" id="startbtn">
+            Start Quiz
+        </button></div> <!-- End Of Start Quiz Button -->
+
+      <!--  <div class="answerbtns">
+            <div class="btn-group-vertical hide ansBtn">
+                <button type="button" class="btn answerBtn" id="answerBtn1" value="1">
+                    1.
+                </button>
+                <button type="button" class="btn answerBtn" id="answerBtn1" value="1">
+                    1.
+                </button>
+                <button type="button" class="btn answerBtn" id="answerBtn1" value="1">
+                    1.
+                </button>
+                <button type="button" class="btn answerBtn" id="answerBtn1" value="1">
+                    1.
+                </button>
+                <button type="button" class="btn answerBtn" id="answerBtn1" value="1">
+                    1.
+                </button>
+            </div> -- End of Answer Btn--
+        </div> -- Button Container End--
+    <div id="correctWrong"></div>
+    </div> -- Holder for Button --
+    </div> -- Quiz Container-- -->
+
+    <!-- High Score Container
+    <div class="highscore">
+        <div class="highscore-board">
+            <h4>High Scores</h4>
+        </div>
+        <div class="boardbank">
+            <p>1. Lorem ipsum - 22</p>
+            <p>2. Lorem ipsum - 20</p>
+            <p>3. Lorem ipsum - 2</p>
+            <p>4. Lorem ipsum - 1</p>
+        </div> -- High Score Board --
+    </div> -->
+    <!-- End of High Score Page -->
+    
+    <!-- Source JavaScript File -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
